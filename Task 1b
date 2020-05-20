@@ -1,0 +1,16 @@
+git clone https://github.com/RHUL-CS-Projects/CS1998-puzzle-repo #This adds all required files for the task to the repl
+
+cd CS1998-puzzle-repo 
+ls
+git log
+#This shows the committ history and changes that have been made
+#Most changes indicated are fixing typos in text
+
+git branch -a
+git checkout clue-branch
+git log --oneline
+#This tells us some of the comments on commits in the clue branch
+#When following this through (b90b5d7) on Github we find an image with text on - this text reads:
+#"Find the letters added in each commit on master, in the order the commits were made . Each commit types out the next digit"
+
+#After going through all the commits through git hub you get the four numbers: 1886
