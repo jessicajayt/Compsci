@@ -1,0 +1,120 @@
+https://Task-2--jesstucker.repl.co #web page 
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Task 2: Draughts board</title>
+    <style>
+      table.Draughts{
+        border:1px solid #000;
+        border-collapse:collapse;
+        width:500px;
+        height:500px; 
+      }
+      table tr td{
+        width:50px;
+        height:50px;
+        text-align:center;
+        font-size:1.2em;
+      }
+      table tr td#grey {
+        background-color:grey; 
+       }
+    </style>
+  </head>
+   <body>
+     <table class='Draughts'>
+       <!--1/8-->
+       <tr>
+         <td id='white'></td>
+         <td id='grey'>&#128308;</td>
+         <td id='white'></td>
+         <td id='grey'>&#128308;</td>
+         <td id='white'></td>
+         <td id='grey'>&#128308;</td>
+         <td id='white'></td>
+         <td id='grey'>&#128308;</td>
+         </tr>
+        <!--2/8-->
+       <tr>
+         <td id='grey'>&#128308;</td>
+         <td id='white'></td>
+         <td id='grey'>&#128308;</td>
+         <td id='white'></td>
+         <td id='grey'>&#128308;</td>
+         <td id='white'></td>
+         <td id='grey'>&#128308;</td>
+         <td id='white'></td>
+         </tr>  
+       <!--3/8-->
+       <tr>
+         <td id='white'></td>
+         <td id='grey'>&#128308;</td>
+         <td id='white'></td>
+         <td id='grey'>&#128308;</td>
+         <td id='white'></td>
+         <td id='grey'>&#128308;</td>
+         <td id='white'></td>
+         <td id='grey'>&#128308;</td>
+         </tr>
+        <!--4/8-->
+       <tr>
+         <td id='grey'> </td>
+         <td id='white'> </td>
+         <td id='grey'> </td>
+         <td id='white'> </td>
+         <td id='grey'> </td>
+         <td id='white'> </td>
+         <td id='grey'> </td>
+         <td id='white'> </td>
+         </tr> 
+       <!--5/8-->
+       <tr>
+         <td id='white'></td>
+         <td id='grey'></td>
+         <td id='white'></td>
+         <td id='grey'></td>
+         <td id='white'></td>
+         <td id='grey'></td>
+         <td id='white'></td>
+         <td id='grey'></td>
+         </tr> 
+        <!--6/8-->
+       <tr>
+         <td id='grey'>&#x26AA</td>
+         <td id='white'></td>
+         <td id='grey'>&#x26AA</td>
+         <td id='white'></td>
+         <td id='grey'>&#x26AA</td>
+         <td id='white'></td>
+         <td id='grey'>&#x26AA</td>
+         <td id='white'></td>
+         </tr> 
+       <!--1/8-->
+       <tr>
+         <td id='white'></td>
+         <td id='grey'>&#x26AA;</td>
+         <td id='white'></td>
+         <td id='grey'>&#x26AA</td>
+         <td id='white'></td>
+         <td id='grey'>&#x26AA</td>
+         <td id='white'></td>
+         <td id='grey'>&#x26AA</td>
+         </tr>
+        <!--2/8-->
+       <tr>
+         <td id='grey'>&#x26AA</td>
+         <td id='white'></td>
+         <td id='grey'>&#x26AA</td>
+         <td id='white'></td>
+         <td id='grey'>&#x26AA</td>
+         <td id='white'></td>
+         <td id='grey'>&#x26AA</td>
+         <td id='white'></td>
+         </tr> 
+     </table>
+     <p> Name: Jessica Tucker </p>
+     <p> <a href = 'https://en.wikipedia.org/wiki/Draughts'>Link to the wikipedia page on draughts</a> </p>
+     <p> I used a table to make this and found some unicodes for the pieces. I made all the squares uniform by adding height and width to the table td tr section under style </p>
+   </body>
+</html>
