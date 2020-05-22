@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <hl>
+    Timepiece
+  </hl>
+  
+  <ul>
+    <li>
+      <a href="/hours">hours</a>
+    </li>
+     <li>
+      <a href="/minutes">minutes</a>
+    </li>
+     <li>
+      <a href="/seconds">seconds</a>
+    </li>
+  </ul>
+  
+  <div class = "demo">
+    {% for ast in draughts_pieces %}
+      <span>{{ ast }}</span>
+    {% endfor %}
+  </div>
+  
+  <div class = "demo">
+    <img src = "/static/red.png"/>
+    <img src = "/static/white.png"/>
+  </div>
+
+{% endblock %}
