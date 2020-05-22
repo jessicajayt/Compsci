@@ -1,0 +1,13 @@
+{% extends "base.html"}
+
+{% block content %}
+  </h1>
+  
+  <a href="/">back to index</a>
+  
+  <div class = "draughts">
+    {% for x in draughts_pieces %}
+      <img scr = "/static?{{ x }}.png/>
+    {% endfor %}
+  </div>
+{% endblock %}
